@@ -8,9 +8,8 @@ const Footer = () => {
                 <hr />
                 <div className="row">
                     <div className="contact col-12 col-md-6 col-lg-4 py-5  text-start">
-                        <p className="low">We have experienced and hard working team
-                            and our prime goal is to provide best self service technicand necessary information to your pet to feel comfort. Everything is placed here for your beloved pet.</p>
-                       
+                        <p className="low">Paw Center is managed by Dr. Abdur Rahman. Here you will get all your pet related help in a single place. Don't get worried with your pet. If anytime you need any kind of medical attention just call Paw Center.
+                        </p>
                     </div>
 
                     <div className="f-2 col-12 col-md-6 col-lg-4 d-flex py-5">
