@@ -8,9 +8,9 @@ const About = () => {
             <div id="about" className="row ">
                 
                 <div className="title1 text-center my-5">
-                    <div> <img src='https://media.istockphoto.com/photos/portrait-of-male-doctor-in-white-coat-and-stethoscope-standing-in-picture-id1327024466?b=1&k=20&m=1327024466&s=170667a&w=0&h=vcw4Exhv4pkR8fMVLNXhNESaKq1HbYwJ1iElLlQBxI0='></img> </div>
+                    <div> <img src='https://avatars.githubusercontent.com/u/62588064?v=4' alt=''></img> </div>
                     <div>
-                    <h3>I am Dr. MD Abdur Rahman. I am a pet specialist. I give all kind of pet treatments. If you need any kind of medical attention for your beloved pet, dont waste time. Contact me fast. All my services are in resonable price.</h3>
+                    <h3>I am Abu Jubaer. I am a web developping student. My goal is to become a web developper in a world top class company. I have a goal to learn React and laravel in next 5 months. After that I will try to learn angularjs. It'd be helpful for my web developping career.</h3>
                     
                     </div>
                 </div>
