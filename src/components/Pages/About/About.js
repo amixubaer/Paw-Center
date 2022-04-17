@@ -5,17 +5,14 @@ import './About.css'
 const About = () => {
     return (
         <div>
-            <div id="about" className="row cover1">
-                <div className="col-md-6">
-
-                </div>
-
-                <div className="title1 col-md-6 my-5">
+            <div id="about" className="row ">
+                
+                <div className="title1 text-center my-5">
+                    <div> <img src='https://media.istockphoto.com/photos/portrait-of-male-doctor-in-white-coat-and-stethoscope-standing-in-picture-id1327024466?b=1&k=20&m=1327024466&s=170667a&w=0&h=vcw4Exhv4pkR8fMVLNXhNESaKq1HbYwJ1iElLlQBxI0='></img> </div>
+                    <div>
+                    <h3>I am Dr. MD Abdur Rahman. I am a pet specialist. I give all kind of pet treatments. If you need any kind of medical attention for your beloved pet, dont waste time. Contact me fast. All my services are in resonable price.</h3>
                     
-                    <h3>We Are The Best Friend of Your Pet</h3>
-                    <p className="text-white text-center mt-3">
-                        Paw Center is managed by Dr. Abdur Rahman. Here you will get all your pet related help in a single place. Don't get worried with your pet. If anytime you need any kind of medical attention just call Paw Center. </p>
-                   
+                    </div>
                 </div>
             </div>
 
