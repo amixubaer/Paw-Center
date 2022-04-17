@@ -11,7 +11,9 @@ import Gallery from './components/Pages/Gallery/Gallery';
 import Login from './components/Pages/Login/Login';
 import Register from './components/Pages/Register/Register';
 import CheckOut from './components/Pages/CheckOut/CheckOut';
+
 import RequireAuth from './Firebase/RequireAuth';
+import Services from './components/Pages/Home/Services/Services';
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
      <Route path="/about"element={<About></About>}></Route>
      <Route path="/blogs" element={<Blogs></Blogs>}></Route>
      <Route path="/gallery" element={<Gallery></Gallery>}></Route>
+     <Route path="/services" element={<Services></Services>}></Route>
      <Route path="/login" element={<Login></Login>}></Route>
      <Route path="/register" element={<Register></Register>}></Route>
      <Route path="/checkOut" element={
@@ -31,6 +34,8 @@ function App() {
          <CheckOut></CheckOut>
        </RequireAuth>
      }></Route>
+
+
      <Route path="*" element={<NotFound></NotFound>}></Route>
      </Routes>
     <Footer></Footer>
