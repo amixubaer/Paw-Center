@@ -3,7 +3,7 @@ import React from 'react';
 const NotFound = () => {
     return (
         <div>
-            <img style={{width: '100vw', height: '100vh'}} src="https://i.ibb.co/n0zyFVN/404.jpg" alt="" />
+            <img style={{width: '100vw', height: '100vh'}} src="https://drudesk.com/sites/default/files/2018-02/404-error-page-not-found.jpg" alt="" />
         </div>
     );
 };
