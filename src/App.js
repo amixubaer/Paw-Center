@@ -7,6 +7,7 @@ import Header from './components/Pages/Header/Header';
 import NotFound from './components/Pages/NotFound/NotFound';
 import Blogs from './components/Pages/Blogs/Blogs';
 import About from './components/Pages/About/About';
+import Gallery from './components/Pages/Gallery/Gallery';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
      <Route path="/home"element={<Home></Home>}></Route>
      <Route path="/about"element={<About></About>}></Route>
      <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+     <Route path="/gallery" element={<Gallery></Gallery>}></Route>
      <Route path="*" element={<NotFound></NotFound>}></Route>
      </Routes>
     <Footer></Footer>
